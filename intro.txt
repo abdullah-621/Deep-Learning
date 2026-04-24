@@ -1,0 +1,42 @@
+🔹 1. import tensorflow
+
+👉 পুরো TensorFlow library import করছো
+
+✔️ এটা main framework
+✔️ Google তৈরি করেছে
+✔️ Deep Learning এর সব কাজ এখানে হয়
+
+👉 Example:
+
+model train
+GPU use
+large computation
+🔹 2. from tensorflow import keras
+
+👉 TensorFlow এর ভিতরের Keras API use করছো
+
+✔️ Keras = high-level API
+✔️ Easy way to build neural network
+
+👉 আগে Keras আলাদা library ছিল
+👉 এখন TensorFlow এর অংশ
+
+🔹 3. from tensorflow.keras import Sequential
+
+👉 এটা দিয়ে তুমি model বানাবে
+
+🧠 Sequential Model কী?
+
+👉 Layer গুলো একটার পর একটা linearly stack করা হয়
+
+Input → Layer1 → Layer2 → Output
+
+👉 Simple ANN এর জন্য perfect ✔️
+
+🔹 4. from tensorflow.keras.layers import Dense
+
+👉 Dense = Fully Connected Layer
+
+👉 মানে:
+
+প্রতিটা neuron আগের layer এর সব neuron এর সাথে connected
